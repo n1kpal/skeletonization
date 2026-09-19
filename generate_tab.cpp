@@ -23,7 +23,7 @@ int main() {
     bitset<512> tab;
     bitset<8> cur;
 
-    for (short i = 4; i < 256; ++i, cur = i) {
+    for (short i = 0; i < 256; ++i, cur = i) {
         short cur_N = N(cur);
         if (C(cur) == 1 && 2 <= cur_N && cur_N <= 3) {
             if (((cur[1] || cur[2] || !cur[4]) && cur[3]) == 0) tab[i*2] = true;
