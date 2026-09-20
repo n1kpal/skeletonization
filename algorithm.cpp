@@ -1,3 +1,5 @@
+#pragma once
+
 #include <bitset>
 #include <vector>
 #include <unordered_set>
@@ -82,26 +84,4 @@ void skeletonization(vector<vector<bool>>& matrix) {
         
         even = !even;
     }
-}
-
-int main() {
-    int n, m; cin >> n >> m;
-    vector<vector<bool>> b(n, vector<bool>(m));
-
-    for (int i = 0; i < n; i++) for (int j = 0; j < m; j++) {
-        bool cur; cin >> cur;
-        b[i][j] = cur;
-    }
-    cout << '\n' << '\n' << '\n';
-
-    skeletonization(b);
-
-    for (int i = 0; i < b.size(); i++) {
-        for (int j = 0; j < b[0].size(); j++) {
-            cout << b[i][j] << ' ';
-        }
-        cout << '\n';
-    }
-
-    cin >> n;
 }
