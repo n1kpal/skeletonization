@@ -1,5 +1,4 @@
-#pragma once
-
+#include "algorithm.hpp"
 #include <bitset>
 #include <vector>
 #include <unordered_set>
