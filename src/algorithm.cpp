@@ -40,7 +40,7 @@ void skeletonization(vector<vector<bool>>& matrix) {
     unordered_set<Point, PointHash> nextBoarder;
 
     // Первый раз ищем границы
-    for (int line = 1; line < height - 1; line++) for (int column = 1; column < width - 1; column++) {
+    for (unsigned int line = 1; line < height - 1; line++) for (unsigned int column = 1; column < width - 1; column++) {
         if (matrix[line][column] && is_board(matrix, line, column)) {
             boarder.emplace(line, column);
         }
