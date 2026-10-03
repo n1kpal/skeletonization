@@ -1,0 +1,9 @@
+
+A Fast Parallel Algorithm for Thinning Digital Patterns (Zhang-Suen)
+https://dl.acm.org/doi/abs/10.1145/357994.358023
+
+Parallel Thinning with Two Subiteration Algorithm (Guo-Hall)
+https://dl.acm.org/doi/abs/10.1145/62065.62074
+
+Distance Transforms of Sampled Functions (Felzenszwalb-Huttenlocher)
+http://theoryofcomputing.org/articles/v008a019/
